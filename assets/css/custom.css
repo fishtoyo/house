@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', 'Microsoft JhengHei UI', 'Microsoft JhengHei', Sans-serif;
+  text-align: center;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* Clear */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* IE6&7 */
+}
+
+#footer .one {
+  background-color: #101010;
+}
+
+#footer .two {
+  background-color: #000;
+}
+
+.area-one {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+}
+
+.banner {
+  float: left;
+}
+
+.news {
+  float: right;
+}
+
+.area-two {
+   background-color: #fafafa;
+}
+
+.scroll-header {
+  position: fixed;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  z-index: 40;
+  border-bottom: 1px solid #eee;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.scroll-header.open {
+  top: 0;
+}
+
+.top {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+}
+
+.sub-box {
+  position: absolute;
+  top: 0;
+  z-index: 20;
+}
+
+.cart-box {
+  position: absolute;
+  top: -75px;
+  right: 25px;
+  z-index: 20;
+}
